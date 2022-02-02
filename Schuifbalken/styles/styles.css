@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #c3cfe2;
+  font-family: arial;
+}
+
+.container-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container-buttons__buttons {
+  width: 50px;
+  height: 50px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+}
+
+.container-buttons__blog {
+  background: #e17b77;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.container-buttons__twitter {
+  background: #00aced;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.container-buttons__facebook {
+  background: #3b5998;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.container-buttons__linkedin {
+  background: #007bb6;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.container-buttons__github {
+  background: #333;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+a {
+  display: none;
+}
+
+.container-buttons__buttons:hover {
+  width: 250px;
+}
+
+.fa {
+  color: #fff;
+  font-size: 300px;
+  padding-left: 17px;
+  padding-top: 17px;
+}
+
+a {
+  color: #fff;
+  font-size: larger;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+/*# sourceMappingURL=styles.css.map */

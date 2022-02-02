@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #c3cfe2;
+  font-family: arial;
+}
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__buttons {
+    width: 50px;
+    height: 50px;
+    transition-duration: 500ms;
+    transition-property: width;
+  }
+
+  &__blog {
+    background: #e17b77;
+    transition-timing-function: linear;
+  }
+
+  &__twitter {
+    background: #00aced;
+    transition-timing-function: linear;
+  }
+
+  &__facebook {
+    background: #3b5998;
+    transition-timing-function: linear;
+  }
+
+  &__linkedin {
+    background: #007bb6;
+    transition-timing-function: linear;
+  }
+  &__github {
+    background: #333;
+    transition-timing-function: linear;
+  }
+}
+
+a {
+  display: none;
+}
+
+.container-buttons__buttons:hover {
+  width: 250px;
+}
+
+////////// Iconen
+
+.fa {
+  color: #fff;
+  font-size: 300px;
+  padding-left: 17px;
+  padding-top: 17px;
+}
+
+a {
+  color: #fff;
+  font-size: larger;
+  transition-timing-function: linear;
+}
